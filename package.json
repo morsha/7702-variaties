@@ -1,0 +1,17 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "start:viem": "node methods/viem.js",
+    "start:ethers": "node methods/ethers.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ethers": "^6.13.6-beta.1",
+    "viem": "^2.28.0"
+  }
+}
